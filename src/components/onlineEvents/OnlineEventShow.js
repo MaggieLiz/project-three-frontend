@@ -75,6 +75,7 @@ function OnlineEventShow() {
 
   const handleSubmit = async () => {
     try {
+      // eslint-disable-next-line no-unused-vars
       const response = await deleteOnlineEvent(onlineEventId)
       window.alert('you have successfully deleted this event')
       history.push('/online-events')
